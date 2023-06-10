@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-using AppCitas.DTOs;
+﻿using AppCitas.Service.DTOs;
 using AppCitas.UnitTests.Helpers;
 using Newtonsoft.Json.Linq;
 using System.Net;

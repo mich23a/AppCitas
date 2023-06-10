@@ -1,7 +1,5 @@
-﻿using AppCitas.Data;
-using AppCitas.Entities;
-using AppCitas.Data;
-using AppCitas.Entities;
+﻿using AppCitas.Service.Data;
+using AppCitas.Service.Entities;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc.Testing;
 using Microsoft.AspNetCore.TestHost;

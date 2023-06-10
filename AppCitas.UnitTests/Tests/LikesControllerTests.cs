@@ -1,4 +1,4 @@
-﻿using AppCitas.DTOs;
+﻿using AppCitas.Service.DTOs;
 using AppCitas.UnitTests.Helpers;
 using Microsoft.AspNetCore.Http;
 using Microsoft.IdentityModel.Logging;
@@ -68,7 +68,7 @@ namespace AppCitas.UnitTests.Tests
         }
 
         [Theory]
-        [InlineData("OK", "rosa", "Pa$$w0rd", "wagner")]
+        [InlineData("OK", "rosa", "Pa$$w0rd", "lisa")]
         public async Task AddLike_ShouldOK(string statusCode, string username, string password, string userLiked)
         {
             // Arrange

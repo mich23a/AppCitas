@@ -13,7 +13,6 @@ namespace AppCitas.UnitTests
 
             // Assert
             Assert.Equal(2, y);
-
         }
 
         [Theory]

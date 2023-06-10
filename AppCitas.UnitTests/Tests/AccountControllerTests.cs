@@ -1,4 +1,4 @@
-﻿using AppCitas.DTOs;
+﻿using AppCitas.Service.DTOs;
 using AppCitas.UnitTests.Helpers;
 using Newtonsoft.Json.Linq;
 using System;

@@ -25,7 +25,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AppCitas\AppCitas.csproj" />
+    <ProjectReference Include="..\AppCitas.Service\AppCitas.Service.csproj" />
   </ItemGroup>
 
   <ItemGroup>

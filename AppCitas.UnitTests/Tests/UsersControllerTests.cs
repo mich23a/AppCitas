@@ -1,4 +1,4 @@
-﻿using AppCitas.DTOs;
+﻿using AppCitas.Service.DTOs;
 using AppCitas.UnitTests.Helpers;
 using Newtonsoft.Json.Linq;
 using System;
@@ -114,7 +114,7 @@ namespace AppCitas.UnitTests.Tests
         }
 
         [Theory]
-        [InlineData("Created", "lisa", "Pa$$w0rd", "../../../img1.jpg")]
+        [InlineData("Created", "lisa", "Pa$$w0rd", "../../../LukaDoncic.jpg")]
         public async Task AddPhoto_ShouldCreated(string statusCode, string username, string password, string file)
         {
             // Arrange
@@ -148,7 +148,7 @@ namespace AppCitas.UnitTests.Tests
         }
 
         [Theory]
-        [InlineData("NoContent", "wagner", "Pa$$w0rd", "../../../img2.jpg")]
+        [InlineData("NoContent", "wagner", "Pa$$w0rd", "../../../LukaDoncic.jpg")]
         public async Task SetMainPhoto_ShouldOK(string statusCode, string username, string password, string file)
         {
             // Arrange
@@ -191,7 +191,7 @@ namespace AppCitas.UnitTests.Tests
         }
 
         [Theory]
-        [InlineData("OK", "rosa", "Pa$$w0rd", "../../../img3.jpg")]
+        [InlineData("OK", "rosa", "Pa$$w0rd", "../../../LukaDoncic.jpg")]
         public async Task DeletePhoto_ShouldOK(string statusCode, string username, string password, string file)
         {
             // Arrange
